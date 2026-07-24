@@ -1,14 +1,14 @@
 name: CI Pipeline
 # Reuse Workflow to be call from other workflows
 on:
-  workflow_call: 
+  workflow_call:
     secrets:
       SONAR_TOKEN:
         required: true
       DOCKERHUB_USERNAME:
         required: true
       DOCKERHUB_TOKEN:
-      required: true     
+        required: true  
 
 jobs:
   unit-tests:
