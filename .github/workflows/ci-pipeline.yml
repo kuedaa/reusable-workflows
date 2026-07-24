@@ -8,9 +8,7 @@ on:
       DOCKERHUB_USERNAME:
         required: true
       DOCKERHUB_TOKEN:
-      required: true
-      
-      
+      required: true     
 
 jobs:
   unit-tests:
